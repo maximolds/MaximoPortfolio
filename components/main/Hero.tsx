@@ -3,6 +3,7 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -42,8 +43,17 @@ const Hero = () => {
         </p>
         {/* Buttons */}
         <div className='w-full flex gap-4'>
-          <button className='p-4 rounded-lg ring-1 ring-black bg-white text-black'>View my work</button>
-          <button className='p-4 rounded-lg ring-1 ring-black bg-black text-white'>Contact Me</button>
+          <Link
+            href="/portfolio"
+            className='p-4 rounded-lg ring-1 ring-black bg-white hover:bg-[#4190c9] text-black hover:text-white'
+          >View my work
+          </Link>
+          <Link
+            href="/contact"
+            className='p-4 rounded-lg ring-1 ring-black bg-[#2e0b51] hover:bg-[#4190c9] hover:text-white text-white'
+          >
+            Contact Me
+          </Link>
         </div>
       </div>
     </div>

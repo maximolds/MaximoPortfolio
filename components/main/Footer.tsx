@@ -7,7 +7,8 @@ import {
     RxLinkedinLogo,
 } from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from 'next/link';
 
 const Footer = () => {
     return (
@@ -18,53 +19,91 @@ const Footer = () => {
 
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Community</div>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <FaYoutube />
-                            <span className="text-[15px] ml-[6px]">Youtube</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxGithubLogo />
-                            <span className="text-[15px] ml-[6px]">Github</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxDiscordLogo />
-                            <span className="text-[15px] ml-[6px]">Discord</span>
-                        </p>
+                        <Link
+                            href="https://www.linkedin.com/in/emmanuel-maximo-970a90279/"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <FaLinkedin />
+                                <span className="text-[15px] ml-[6px]">Linkedin</span>
+                            </p>
+                        </Link>
+                        <Link
+                            href="https://github.com/maximolds"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <RxGithubLogo />
+                                <span className="text-[15px] ml-[6px]">Github</span>
+                            </p>
+                        </Link>
+                        <Link
+                            href=""
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <RxDiscordLogo />
+                                <span className="text-[15px] ml-[6px]">Discord</span>
+                            </p>
+                        </Link>
+
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Social Media</div>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <FaYoutube />
-                            <span className="text-[15px] ml-[6px]">Instagram</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxGithubLogo />
-                            <span className="text-[15px] ml-[6px]">Twitter</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                            <RxDiscordLogo />
-                            <span className="text-[15px] ml-[6px]">Linkedin</span>
-                        </p>
+                        <Link
+                            href="https://www.facebook.com/Maximo.Emman/"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <FaFacebook />
+                                <span className="text-[15px] ml-[6px]">Facebook</span>
+                            </p>
+                        </Link>
+
+                        <Link
+                            href="https://www.instagram.com/emn.maximo/"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <FaInstagram />
+                                <span className="text-[15px] ml-[6px]">Instagram</span>
+                            </p>
+                        </Link>
+
+
+                        <Link
+                            href="https://www.linkedin.com/in/emmanuel-maximo-970a90279/"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+                                <FaLinkedin />
+                                <span className="text-[15px] ml-[6px]">Linkedin</span>
+                            </p>
+                        </Link>
+
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">About</div>
+                        <Link
+                            href="/contact"
+                        >
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+
+                                <span className="text-[15px] ml-[6px]">Contact Me</span>
+                            </p>
+                        </Link>
+
+                        <Link href="/about">
+                            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+
+                                <span className="text-[15px] ml-[6px]">Learning about me</span>
+                            </p>
+                        </Link>
+
+
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
-                            <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-
-                            <span className="text-[15px] ml-[6px]">Learning about me</span>
-                        </p>
-                        <p className="flex flex-row items-center my-[15px] cursor-pointer">
-
-                            <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>
+                            <span className="text-[15px] ml-[6px]">emmanuel.maximo03@gmail.com</span>
                         </p>
                     </div>
                 </div>
 
-                <div className="mb-[20px] text-[15px] text-center">
-                    &copy; WebChain Dev 2023 Inc. All rights reserved
+                <div className="mb-[20px] mt-[20px] text-[15px] text-center">
+                    &copy; Emmanuel Maximo 2024. All rights reserved
                 </div>
             </div>
         </div>
