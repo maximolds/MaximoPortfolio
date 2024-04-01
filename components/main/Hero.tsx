@@ -27,16 +27,16 @@ const Hero = () => {
         {/* Title */}
         <h1 className='text-4xl md:text-6xl font-bold text-white'>
           <span>
-            Providing
+            Hi! I'm 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Emmanuel Maximo{" "}
             </span>
-            project exprience
+            
           </span>
         </h1>
         {/* Description*/}
-        <p className='text-white'>
+        <p className='text-white text-justify'>
           I&apos;m a Full Stack Software Engineer and Mechatronics Engineer with experience in Website,
           Mobile development, Software development, Robotic Process Automation, Robot and Electronics development, and Instrumentation and Control System.
           Check out my projects and skills.
