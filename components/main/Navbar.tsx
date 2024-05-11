@@ -76,11 +76,10 @@ const Navbar = () => {
         <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] text-xl">
                 <div className="hidden md:flex gap-4 text-white ">
-                    {links.map(link => (
-                        <div className="hover:bg-[#2A0E61] hover:rounded-md active:bg-white active:text-black ">
-                            <NavLink link={link}/>
+                    {links.map((link, index) => (
+                        <div className="hover:bg-[#2A0E61] hover:rounded-md active:bg-white active:text-black" key={index}>
+                            <NavLink link={link} />
                         </div>
-
                     ))}
                 </div>
 
@@ -98,29 +97,29 @@ const Navbar = () => {
                 <div className="flex flex-row gap-5">
                     <Link href="https://www.facebook.com/Maximo.Emman/">
                         <Image
-                        src="facebook.svg"
-                        alt="Facebook"
-                        key="Facebook"
-                        width={24}
-                        height={24}
+                            src="facebook.svg"
+                            alt="Facebook"
+                            key="Facebook"
+                            width={24}
+                            height={24}
                         />
                     </Link>
                     <Link href="https://www.linkedin.com/in/emmanuel-maximo-970a90279/">
                         <Image
-                        src="linkedin.svg"
-                        alt="Linkedin"
-                        key="Linkedin"
-                        width={30}
-                        height={30}
+                            src="linkedin.svg"
+                            alt="Linkedin"
+                            key="Linkedin"
+                            width={30}
+                            height={30}
                         />
                     </Link>
                     <Link href="https://github.com/maximolds">
                         <Image
-                        src="githubb.svg"
-                        alt="Github"
-                        key="Github"
-                        width={30}
-                        height={30}
+                            src="githubb.svg"
+                            alt="Github"
+                            key="Github"
+                            width={30}
+                            height={30}
                         />
                     </Link>
                 </div>
@@ -156,7 +155,7 @@ const Navbar = () => {
                         className="z-50 absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl">
 
                         {links.map(link => (
-                            <motion.div variants={listItemVariants}  key={link.url}>
+                            <motion.div variants={listItemVariants} key={link.url}>
                                 <Link href={link.url}>{link.title}</Link>
                             </motion.div>
 
