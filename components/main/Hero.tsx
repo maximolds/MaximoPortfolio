@@ -27,7 +27,7 @@ const Hero = () => {
         {/* Title */}
         <h1 className="text-4xl md:text-6xl font-bold text-white">
           <span>
-            Hi! I"m 
+            Hi! I&apos;m 
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               Emmanuel Maximo{" "}
