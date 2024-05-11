@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from "framer-motion"
-import * as THREE from 'three';
+
 
 const AboutPage = () => {
   return (
@@ -48,27 +48,27 @@ const AboutPage = () => {
             <h1 className='font-bold text-2xl mb-5'>SKILLS</h1>
             {/* Skill List */}
             <div className='flex gap-4 flex-wrap'>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>MYSQL</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>JavaScript</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>ReactJS</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>NextJS</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>NodeJS</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Python</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PLC</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Matlab</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Java</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PHP</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Computer Aided Design</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Figma</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PhotoShop</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Data Analysis</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Machine Learning</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Robotic Process Automation</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Circuit Design</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Motion Control</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Instrumentation and Control System</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Mechatronics</div>
-              <div className='z-[400] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Robotics</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>MYSQL</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>JavaScript</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>ReactJS</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>NextJS</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>NodeJS</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Python</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PLC</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Matlab</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Java</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PHP</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Computer Aided Design</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Figma</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>PhotoShop</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Data Analysis</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Machine Learning</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Robotic Process Automation</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Circuit Design</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Motion Control</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Instrumentation and Control System</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Mechatronics</div>
+              <div className='z-[20] rounded p-2 text-sm cursor-pointer bg-white text-black hover:bg-[#33095b] hover:text-white'>Robotics</div>
             </div>
 
             {/* Skill Scroll SVG */}

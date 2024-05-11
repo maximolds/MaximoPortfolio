@@ -42,7 +42,7 @@ const Hero = () => {
           Check out my projects and skills.
         </p>
         {/* Buttons */}
-        <div className="w-full flex gap-4">
+        <div className="w-full flex gap-4 mb-10 sm:mb-20">
           <Link
             href="/portfolio"
             className="p-4 rounded-lg ring-1 ring-black bg-white hover:bg-[#4190c9] text-black hover:text-white"
