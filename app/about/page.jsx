@@ -20,7 +20,7 @@ const AboutPage = () => {
           <div className='flex flex-col gap-12 justify-center'>
             <h1 className='font-bold text-2xl'>BIOGRAPHY</h1>
             <p className='text-lg text-justify'>
-              As a freshly graduated Mechatronics Engineer from Bulacan State University, I am proud to have earned Latin Honors for my dedication and academic excellence. From a young age, my fascination with computers and gadgets has driven me to develop numerous projects, fueling my passion for design and programming. At 22 years old, I am committed to delivering high-quality projects within tight deadlines, guided by the motto, "Do what you can do today, that your future self would thank you." With a steadfast belief in efficiency and excellence, I eagerly embark on new challenges, striving to leave a lasting impact in the field of engineering.
+              As a freshly graduated Mechatronics Engineer from Bulacan State University, I am proud to have earned Latin Honors for my dedication and academic excellence. From a young age, my fascination with computers and gadgets has driven me to develop numerous projects, fueling my passion for design and programming. At 22 years old, I am committed to delivering high-quality projects within tight deadlines, guided by the motto, &quot;Do what you can do today, that your future self would thank you.&quot; With a steadfast belief in efficiency and excellence, I eagerly embark on new challenges, striving to leave a lasting impact in the field of engineering.
             </p>
             <span className='italic'>
               - @maximolds
