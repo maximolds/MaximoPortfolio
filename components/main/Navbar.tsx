@@ -78,7 +78,7 @@ const Navbar = () => {
                 <div className="hidden md:flex gap-4 text-white ">
                     {links.map(link => (
                         <div className="hover:bg-[#2A0E61] hover:rounded-md active:bg-white active:text-black ">
-                            <NavLink link={link} key={link.title} />
+                            <NavLink link={link}/>
                         </div>
 
                     ))}
@@ -156,8 +156,8 @@ const Navbar = () => {
                         className="z-50 absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl">
 
                         {links.map(link => (
-                            <motion.div variants={listItemVariants}>
-                                <Link href={link.url} key={link.title}>{link.title}</Link>
+                            <motion.div variants={listItemVariants}  key={link.url}>
+                                <Link href={link.url}>{link.title}</Link>
                             </motion.div>
 
                         ))}
